@@ -1,0 +1,170 @@
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>1000)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|      159 |  286466 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>700)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|      246 |  359161 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>500)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|      335 |  411593 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>300)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|      525 |  485340 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>200)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|      731 |  536443 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>100)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     1298 |  617553 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>50)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     2135 |  676855 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>30)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     2863 |  705911 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>20)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     3568 |  723495 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>10)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     5066 |  745754 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>5)t;
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|     7222 |  762470 |
++----------+---------+
+select count(1),sum(ct) from (select user_id,count(1) as ct from piecework group by user_id having count(1)>2)t;3 
++----------+---------+
+| count(1) | sum(ct) |
++----------+---------+
+|    11414 |  778007 |
++----------+---------+
+select count(1) from (select user_id from piecework group by user_id having count(1)=2)t;2 
++----------+
+| count(1) |
++----------+
+|     4775 |
++----------+
+select count(1) from (select user_id from piecework group by user_id having count(1)=1)t; 1 
++----------+
+| count(1) |
++----------+
+|    23147 |
++----------+
+
+
+select count(distinct user_name),count(distinct user_id),count(distinct user_id,user_name) from piecework where user_id <>'null';
++---------------------------+-------------------------+-----------------------------------+
+| count(distinct user_name) | count(distinct user_id) | count(distinct user_id,user_name) |
++---------------------------+-------------------------+-----------------------------------+
+|                     37993 |                   39335 |                             39336 |
++---------------------------+-------------------------+-----------------------------------+
+
+select count(1) from piecework;
++----------+
+| count(1) |
++----------+
+|   810704 |
++----------+
+
+select count(1) ,work_quality from piecework group by work_quality ;
++----------+--------------+
+| count(1) | work_quality |
++----------+--------------+
+|       28 | 一等奖       |
+|       69 | 三等奖       |
+|   226605 | 不合格       |
+|       12 | 中标         |
+|       33 | 二等奖       |
+|        9 | 五等奖       |
+|   514438 | 合格         |
+|      107 | 四等奖       |
+|       11 | 备选         |
+|    69273 | 未知         |
+|      119 | 淘汰         |
++----------+--------------+
+
+
+select count(1) from task;
++----------+
+| count(1) |
++----------+
+|     2173 |
++----------+
+select count(distinct release_User_Id) from task;
++---------------------------------+
+| count(distinct release_User_Id) |
++---------------------------------+
+|                            1526 |
++---------------------------------+
+
+1.heavy-tail
+2.super agent/expert
+3.发布人数量和实际主要工作人数量 相差并不悬殊
+4.高单件计价的工作, 完成度更高, 完成质量更高（论文）
+
+
+1.(已发生任务)任务纠纷仲裁。是否有仲裁的能力
+http://task.zhubajie.com/3861194/ 
+2.不可靠woker提交的任务,进行预测。部分进行人工标注。
+3.不可靠任务，任务的单价是否合理，是否可完成。部分进行人工标注。
+4.拥有能力数值的。用户成长，用户类型的预测? 定位核心用户?
+5.任务推荐
+
+
+遇到的问题
+1. content 不好分析->不好分析任务的复杂度，进而评估
+2. 
+3. 数据不是全量，是否需要将user的数据全部抓取?
+
+
+常用sql
+select * from task_piece_summary 
+order by  piecework_amt desc;
+
+select  distinct total_amt from task  order by total_amt desc limit 20;
+select * from task where task_id ='2485562'
+
+select * from user_info 
+where max_ability_value>0 
+and piecework_count>500
+order by ability_piecework_proportion 
+desc ;
+
+select * from task_ext where 
+user_add is not null limit 10;
+
+
+
+

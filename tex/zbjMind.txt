@@ -1,0 +1,119 @@
+\documentclass{sig-alternate-05-2015}
+\usepackage{multirow}
+\begin{document}
+\setcopyright{acmcopyright}
+
+\doi{not known}
+\isbn{not known}
+
+\title{Alternate {\ttlit ACM} SIG Proceedings Paper in LaTeX}
+\numberofauthors{1} 
+\author{
+% 1st. author
+\alignauthor
+TestName A
+}
+
+\maketitle
+\begin{abstract}
+TO BE DONE
+\end{abstract}
+\printccsdesc
+
+\section{Introduction}
+TO BE DONE
+\section{DATASET ANALYSIS}
+\subsection{Data Collection}
+Zhubajie \footnote{\label{footnote1}www.zbj.com}(ZBJ) is a famous online freelancing marketplace platform in China. Employers publish different kinds of human intelligent tasks(HITs) on  ZBJ for freelancers to work on. There are three kinds of HITs in this platform: tender, pitch and piece-work. Tender  is a kind of task that after the Employers publish a task with content and salary, freelancers submit description of themselves, and employer make a choice to work with one of the candidates. While a pitch task is a task that freelancers directly submit their works for employer to choose, and one or several of the candidates are picked. In a piece-work task, employer need different freelancers to fulfill a lot of micro-tasks. We crawl all the tasks and their corresponding freelancer submissions from  ZBJ platform in 2015. We select eight categories of the tender and pitch HITs and tag them with five(need to be alternated) price bins according to the salary of the task.
+\subsection{Data Features} TO DO
+\section{ Chosen work Prediction}
+In this section we will formulate the chosen work prediction problem in a tender or pitch HIT. We will then describe features of the freelancers, employers and submitted work.
+\subsection{Problem Formulation}
+Considering employer $e \in E$ (Employer set) publishes a HIT, ${t}_{me}$ which is the m-th HIT  from the  whole HITs set $T$. And a freelancer $u \in U$ (Freelancer set) submit the n-th work ${w}_{uemn}$ to ${t}_{me}$. Our work is to predict the $top-k$ works which are going to be rewarded by $e$ in ${t}_{me}$ and belongs to category ${cate}_{i}$ and price bin ${price}_{j}$. If a work ${w}_{uemn}$ is chosen , then the result  $r({w}_{uemn})=1$, otherwise $r({w}_{uemn})=0$.
+\subsection{Data features for prediction}
+\paragraph{Freelancer features} Freelancer features describe the characters of the freelancer $u$ to enable us to acquire to judge the ability of $u$ to fulfill a HIT.  \\
+\textbf{Category number:} We use $cateNum(u)$ to represent the number of categories a freelancer $u$ worked on. \\
+\textbf{ Number of works in related category:}  We use function $workNum(u,cate)$ to denote describe the category-related interest of the freelancer $u$. \\ 
+\textbf{ Fraction of works in related category:} Fraction of works in related category is used to describe the category-related interest of the freelancer $u$. Fraction of work in related category is \\ $workNumRate(u,{cate}_{i})= \frac{workNum(u,{cate}_{i})}{\sum _{i}{workNum(u,{cate}_{i})} } $ \\ 
+\textbf{ Number of works in related price bin:}  We use function $priceNum(u,price)$ the price-related interest of the freelancer $u$. \\
+\textbf{ Fraction of work sin related price bin:} We use function $priceRate(u,price)$ to describe the price-related interest of the freelancer $u$. Fraction of work in related price bin is \\$priceRate(u,{cate}_{i})= \frac{priceNum(u,{price}_{i})}{\sum _{i}{priceNum(u,{price}_{i})} } $ \\
+\textbf{ System reputation:} ZBJ platform gives a  freelancer $u$ a system reputation level $sysLevel(u)$ when $u$ fulfilled certain HITs. The more works, that are submitted by $u$, get more reward from employers, the higher level $sysLevel(u)$ the $u$ will get from the system. \\
+\textbf{ Efficiency:} Efficiency is the number of works that $u$ submits in a limited time period. We use three functions $effi7d(u)$, $effi14d(u)$,$effi30d(u)$ to represent the efficiency of $u$ corresponding to three different time periods which are 7 days, 14 days and 30 days. Efficiency is a character that show us the work ability and passion of a freelancer. \\
+\textbf{ Category-related efficiency and Price-related efficiency:} Similarly to efficiency,  we calculate category-related efficiency and price-related efficiency in different categories or different price bins for a freelancer $u$ as $cateEffi7d(u, cate)$, \\$cateEffi14d(u, cate)$, $cateEffi30d(u, cate)$, \\$priceEffi7d(u, price)$, \\$priceEffi14d(u, price)$, \\$priceEffi30d(u, price)$ .\\
+\textbf{Quality:} We calculate the number of works rewarded and the number of works costs and a success rate of a freelancer. ${n}_{suc}(u)$ denote the number of works worked by $u$ that get rewarded, while ${n}_{fail}(u)$ denote the number of works worked by $u$ that do not get rewarded even when the task is finished. So the number of works rewarded is $rewardedWorkCost(u)={n}_{suc}(u)$;  the number of works costs is $workCostNum(u)={n}_{suc}(u) - {n}_{fail}(u)$; success rate is $sucRate(u)={n}_{suc}(u)/({n}_{suc}(u) + {n}_{fail}(u))$. \\
+\textbf{ Category-related Quality and Price-related Quality} Similarly to Quality,  we calculate category-related Quality and price-related Quality in different categories or different price bins for a freelancer $u$ : ${cateN}_{suc}(u, cate)$, \\$cateRewardedWorkCost(u, cate)$, $cateSucRate(u, cate)$, \\${priceN}_{suc}(u, price)$, \\$priceRewardedWorkCost(u, price)$, \\$priceSucRate(u, price)$, . 
+
+\paragraph{Submitted Work Features} 
+\textbf{Relative reputation:} The system reputation level of a work is the the system reputation level of the freelancer who submits the work. We use $rank({w}_{uemn}, {t}_{me})$ denote the system reputation level rank of work $repRank({w}_{uemn})$ compared with other works of the task ${t}_{me}$. $repRank({w}_{uemn}, {t}_{me})$ is the number of works whose system reputation level is bigger then the system reputation level of ${w}_{uemn}$. And we use $num({t}_{me})$ denote the total number of works submitted to the task ${t}_{me}$. Relative reputation is then denoted by $relativeRep(w)=\frac{repRank({w}_{uemn}, {t}_{me})}{num({t}_{me})}$. \\
+\textbf{Response time:} Response time $responseDate(w)$ is the count of days after a task  ${t}_{me}$ is published. \\
+\textbf{Relative response time:} Similar to relative reputation, we use $resposeRank({w}_{uemn})$ denote the time rank of a work ${w}_{uemn}$ submiteed to ${t}_{me}$. The earlier a work is submitted the lower its ranker is. And the relative response time is \\$relativeResposeDate(w)=\frac{resposeRank({w}_{uemn}, {t}_{me})}{num({t}_{me})}$. \\
+
+\paragraph{Employer Features} Employer features describe the preference of a employer $e$ to make a choice. \\
+\textbf{Reputation preference:} We calculate the median and mean system reputation level of the works selected by the employer $e$: 
+$medianRep(e)$, $meanRep(e)$. \\
+\textbf{Relative reputation preference:} We calculate the median and mean relative system reputation level of the works selected by the employer $e$: $medianRelativeRep(e)$, \\$meanRelativeRep(e)$. \\
+\textbf{Response time preference:} We calculate the median and mean system response time works selected by the employer $e$: $medianResposeDate(e)$, \\$meanResposeDate(e)$\\
+\section{METHODOLOGY}
+In this section we will firstly describe how we use the features to combina a final input feature matrix. And then we show the baselines we used in this paper to compare with our work. Finally, we will explain our method and the evaluations.
+\subsection{Feature matrix}
+Suppose that there is a work $w$, which is submitted to $e$'s task $t$ by $u$. And $t$'s category is ${cate}_{i}$ and $t$ belongs price bin ${price}_{j}$. Then we get the tree type of features $\overrightarrow{w}$, $\overrightarrow{u}$, $\overrightarrow{e}$ seperately.\\
+$\overrightarrow{w}=\left[relativeRep(w)\quad responseDate(w)\quad resposeRank({w}_{uemn})\right]$\\
+$\overrightarrow{u}={\begin{vmatrix} 
+cateNum(u) \\ 
+workNum(u,cate) \\
+workNumRate(u,{cate}_{i})\\
+priceNum(u,price)\\
+priceRate(u,price)\\
+sysLevel(u)\\
+effi7d(u)\\
+effi14d(u)\\
+effi30d(u)\\
+cateEffi7d(u, cate) \\
+cateEffi14d(u, cate) 
+cateEffi30d(u, cate) \\
+priceEffi7d(u, price) \\
+priceEffi14d(u, price) \\
+priceEffi30d(u, price)\\
+{n}_{suc}(u)\\
+rewardedWorkCost(u)\\
+sucRate(u)\\
+{cateN}_{suc}(u, cate) \\
+cateRewardedWorkCost(u, cate) \\ %============= can not init with zero
+cateSucRate(u, cate) \\
+{priceN}_{suc}(u, price) \\
+priceRewardedWorkCost(u, price) \\ %============= can not init with zero
+priceSucRate(u, price) 
+\end{vmatrix} }^{ T }$\\
+$\overrightarrow{w}={\begin{vmatrix} %============= employer hobbies may  not be inited with zero. May use a median of all the recorded other fresh employers
+medianRep(e)-sysLevel(u)\\
+meanRep(e)-sysLevel(u)\\
+medianRelativeRep(e)-relativeRep(w) \\
+meanRelativeRep(e)-relativeRep(w) \\
+medianResposeDate(e) -responseDate(w)\\
+meanResposeDate(e)-responseDate(w)\\
+abs(medianRep(e)-sysLevel(u))\\
+abs(meanRep(e)-sysLevel(u))\\
+abs(medianRelativeRep(e)-relativeRep(w) )\\
+abs(meanRelativeRep(e)-relativeRep(w) )\\
+abs(medianResposeDate(e) -responseDate(w))\\
+abs(meanResposeDate(e)-responseDate(w))
+\end{vmatrix} }^{ T }\\$\\
+The Feature vector of work $w$ is consist of the three vectors:\\
+$vectorW({w}_{uemn})=\left[ \overrightarrow{w}\quad\overrightarrow{u}\quad\overrightarrow{e}\right]$. \\
+And with certain count of works, we get the final feature matrix : 
+$featureMatrix(W)=
+{\begin{vmatrix}
+vectorW({w}_{uem1})\\
+vectorW({w}_{uem2})\\
+...\\
+vectorW({w}_{uemn}\\
+\end{vmatrix} }
+$. 
+\subsection{Baseline}
+We use four different means as baselines to compare with our model. We use random select, reputation $sysLevel(u)$, historical success rate $sucRate(u)$ and category-related historical success rate $cateSucRate(u, cate) $ to generate a rank list from all the works submitted to one task $t$ seperately. And then we choose the $top-s$ works to be the selected works for the task $t$, where s is demanded number of works coreesponding to $t$.
+
+\subsection{Method and Evaluation}
+Firstly we use the feature matrxi we present in section 3 as features and acturally situation that wheathre a works $w$ is chosen ($r({w}_{uemn})=1$) or not ($r({w}_{uemn})=0$) as label data, to train a regression model by three different methods, decission tree, random forest and linear regression. Then similarily to how we deal with the baseline, we use the regression of the model we traind with the feature matrix of test data as input to generate a rank list for the submitted works of each task seperately and choose the $top-s$ works according to each rank list.
+And to evaluation the result of our feature model and the baseline, we may use precision, accuracy and AUC. Further more we induce NDCG@k(Normalized Discounted Cumulative Gain) and precision@k from information retrieval. And in order to implement the evaluation, we alternate the top-m works to $top-(s+k)$.
+\end{document}
+

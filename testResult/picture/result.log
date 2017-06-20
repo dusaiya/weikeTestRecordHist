@@ -1,0 +1,1302 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2016 13:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**result.tex
+(./result.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks20
+)
+(./result.aux)
+\openout1 = `result.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen122
+\scratchbox=\box28
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen123
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(18.06749pt, 578.16002pt, 18.06749pt)
+* v-part:(T,H,B)=(28.90755pt, 737.15489pt, 28.90755pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=578.16002pt
+* \textheight=737.15489pt
+* \oddsidemargin=-54.2025pt
+* \evensidemargin=-54.2025pt
+* \topmargin=-80.36244pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Warning: No \author given.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package epstopdf Info: Source file: <./group2method/category4-cost-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:21
+(epstopdf)                    size: 46222 bytes
+(epstopdf)             Output file: <./group2method/category4-cost-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-c
+ost-NDCG@K-eps-converted-to.pdf ./group2method/category4-cost-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 16.
+runsystem(repstopdf --outfile=./group2method/category4-cost-NDCG@K-eps-converte
+d-to.pdf ./group2method/category4-cost-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-cost-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:23
+(epstopdf)                    size: 14052 bytes.
+
+<./group2method/category4-cost-NDCG@K-eps-converted-to.pdf, id=9, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category4-cost-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category4-cost-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-cost-NDCG@K-eps-converted-to.
+pdf used on input line 16.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-employer-NDCG@K.e
+ps>
+(epstopdf)                    date: 2016-07-19 12:34:16
+(epstopdf)                    size: 46230 bytes
+(epstopdf)             Output file: <./group2method/category4-employer-NDCG@K-e
+ps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-e
+mployer-NDCG@K-eps-converted-to.pdf ./group2method/category4-employer-NDCG@K.ep
+s>
+(epstopdf)             \includegraphics on input line 17.
+runsystem(repstopdf --outfile=./group2method/category4-employer-NDCG@K-eps-conv
+erted-to.pdf ./group2method/category4-employer-NDCG@K.eps)...executed safely (a
+llowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-employer-NDCG@K-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:23
+(epstopdf)                    size: 14121 bytes.
+
+<./group2method/category4-employer-NDCG@K-eps-converted-to.pdf, id=10, 529.98pt
+ x 398.48875pt>
+File: ./group2method/category4-employer-NDCG@K-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./group2method/category4-employer-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-employer-NDCG@K-eps-converted
+-to.pdf used on input line 17.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-hits-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:30
+(epstopdf)                    size: 46230 bytes
+(epstopdf)             Output file: <./group2method/category4-hits-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-h
+its-NDCG@K-eps-converted-to.pdf ./group2method/category4-hits-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 18.
+runsystem(repstopdf --outfile=./group2method/category4-hits-NDCG@K-eps-converte
+d-to.pdf ./group2method/category4-hits-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-hits-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:24
+(epstopdf)                    size: 14108 bytes.
+
+<./group2method/category4-hits-NDCG@K-eps-converted-to.pdf, id=11, 529.98pt x 3
+98.48875pt>
+File: ./group2method/category4-hits-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category4-hits-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-hits-NDCG@K-eps-converted-to.
+pdf used on input line 18.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 20.
+
+Package epstopdf Info: Source file: <./group2method/category4-reputation-NDCG@K
+.eps>
+(epstopdf)                    date: 2016-07-19 12:34:18
+(epstopdf)                    size: 46269 bytes
+(epstopdf)             Output file: <./group2method/category4-reputation-NDCG@K
+-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-r
+eputation-NDCG@K-eps-converted-to.pdf ./group2method/category4-reputation-NDCG@
+K.eps>
+(epstopdf)             \includegraphics on input line 24.
+runsystem(repstopdf --outfile=./group2method/category4-reputation-NDCG@K-eps-co
+nverted-to.pdf ./group2method/category4-reputation-NDCG@K.eps)...executed safel
+y (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-reputation-NDCG@K
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:24
+(epstopdf)                    size: 14177 bytes.
+
+<./group2method/category4-reputation-NDCG@K-eps-converted-to.pdf, id=12, 529.98
+pt x 398.48875pt>
+File: ./group2method/category4-reputation-NDCG@K-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use ./group2method/category4-reputation-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-reputation-NDCG@K-eps-convert
+ed-to.pdf used on input line 24.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-sucnum-NDCG@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:34:25
+(epstopdf)                    size: 46194 bytes
+(epstopdf)             Output file: <./group2method/category4-sucnum-NDCG@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-s
+ucnum-NDCG@K-eps-converted-to.pdf ./group2method/category4-sucnum-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 25.
+runsystem(repstopdf --outfile=./group2method/category4-sucnum-NDCG@K-eps-conver
+ted-to.pdf ./group2method/category4-sucnum-NDCG@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category4-sucnum-NDCG@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:25
+(epstopdf)                    size: 14281 bytes.
+
+<./group2method/category4-sucnum-NDCG@K-eps-converted-to.pdf, id=13, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category4-sucnum-NDCG@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category4-sucnum-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-sucnum-NDCG@K-eps-converted-t
+o.pdf used on input line 25.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-sucrate-NDCG@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:34:11
+(epstopdf)                    size: 46236 bytes
+(epstopdf)             Output file: <./group2method/category4-sucrate-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-s
+ucrate-NDCG@K-eps-converted-to.pdf ./group2method/category4-sucrate-NDCG@K.eps>
+
+(epstopdf)             \includegraphics on input line 26.
+runsystem(repstopdf --outfile=./group2method/category4-sucrate-NDCG@K-eps-conve
+rted-to.pdf ./group2method/category4-sucrate-NDCG@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category4-sucrate-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:25
+(epstopdf)                    size: 14180 bytes.
+
+<./group2method/category4-sucrate-NDCG@K-eps-converted-to.pdf, id=14, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category4-sucrate-NDCG@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category4-sucrate-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-sucrate-NDCG@K-eps-converted-
+to.pdf used on input line 26.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 28.
+
+Package epstopdf Info: Source file: <./group2method/category4-time-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:23
+(epstopdf)                    size: 46246 bytes
+(epstopdf)             Output file: <./group2method/category4-time-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-t
+ime-NDCG@K-eps-converted-to.pdf ./group2method/category4-time-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 32.
+runsystem(repstopdf --outfile=./group2method/category4-time-NDCG@K-eps-converte
+d-to.pdf ./group2method/category4-time-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-time-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:25
+(epstopdf)                    size: 14049 bytes.
+
+<./group2method/category4-time-NDCG@K-eps-converted-to.pdf, id=15, 529.98pt x 3
+98.48875pt>
+File: ./group2method/category4-time-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category4-time-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-time-NDCG@K-eps-converted-to.
+pdf used on input line 32.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-userspecific-NDCG
+@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:28
+(epstopdf)                    size: 46242 bytes
+(epstopdf)             Output file: <./group2method/category4-userspecific-NDCG
+@K-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-u
+serspecific-NDCG@K-eps-converted-to.pdf ./group2method/category4-userspecific-N
+DCG@K.eps>
+(epstopdf)             \includegraphics on input line 33.
+runsystem(repstopdf --outfile=./group2method/category4-userspecific-NDCG@K-eps-
+converted-to.pdf ./group2method/category4-userspecific-NDCG@K.eps)...executed s
+afely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-userspecific-NDCG
+@K-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:26
+(epstopdf)                    size: 14335 bytes.
+
+<./group2method/category4-userspecific-NDCG@K-eps-converted-to.pdf, id=16, 529.
+98pt x 398.48875pt>
+File: ./group2method/category4-userspecific-NDCG@K-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ./group2method/category4-userspecific-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-userspecific-NDCG@K-eps-conve
+rted-to.pdf used on input line 33.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-worknum-NDCG@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:34:14
+(epstopdf)                    size: 46280 bytes
+(epstopdf)             Output file: <./group2method/category4-worknum-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-w
+orknum-NDCG@K-eps-converted-to.pdf ./group2method/category4-worknum-NDCG@K.eps>
+
+(epstopdf)             \includegraphics on input line 34.
+runsystem(repstopdf --outfile=./group2method/category4-worknum-NDCG@K-eps-conve
+rted-to.pdf ./group2method/category4-worknum-NDCG@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category4-worknum-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:26
+(epstopdf)                    size: 14241 bytes.
+
+<./group2method/category4-worknum-NDCG@K-eps-converted-to.pdf, id=17, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category4-worknum-NDCG@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category4-worknum-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-worknum-NDCG@K-eps-converted-
+to.pdf used on input line 34.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 36.
+
+Package epstopdf Info: Source file: <./group2method/category7-cost-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:42
+(epstopdf)                    size: 46250 bytes
+(epstopdf)             Output file: <./group2method/category7-cost-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-c
+ost-NDCG@K-eps-converted-to.pdf ./group2method/category7-cost-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 40.
+runsystem(repstopdf --outfile=./group2method/category7-cost-NDCG@K-eps-converte
+d-to.pdf ./group2method/category7-cost-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-cost-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:27
+(epstopdf)                    size: 14087 bytes.
+
+<./group2method/category7-cost-NDCG@K-eps-converted-to.pdf, id=18, 529.98pt x 3
+98.48875pt>
+File: ./group2method/category7-cost-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category7-cost-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-cost-NDCG@K-eps-converted-to.
+pdf used on input line 40.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-employer-NDCG@K.e
+ps>
+(epstopdf)                    date: 2016-07-19 12:34:37
+(epstopdf)                    size: 46222 bytes
+(epstopdf)             Output file: <./group2method/category7-employer-NDCG@K-e
+ps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-e
+mployer-NDCG@K-eps-converted-to.pdf ./group2method/category7-employer-NDCG@K.ep
+s>
+(epstopdf)             \includegraphics on input line 41.
+runsystem(repstopdf --outfile=./group2method/category7-employer-NDCG@K-eps-conv
+erted-to.pdf ./group2method/category7-employer-NDCG@K.eps)...executed safely (a
+llowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-employer-NDCG@K-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:27
+(epstopdf)                    size: 14161 bytes.
+
+<./group2method/category7-employer-NDCG@K-eps-converted-to.pdf, id=19, 529.98pt
+ x 398.48875pt>
+File: ./group2method/category7-employer-NDCG@K-eps-converted-to.pdf Graphic fil
+e (type pdf)
+
+<use ./group2method/category7-employer-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-employer-NDCG@K-eps-converted
+-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-hits-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:51
+(epstopdf)                    size: 46266 bytes
+(epstopdf)             Output file: <./group2method/category7-hits-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-h
+its-NDCG@K-eps-converted-to.pdf ./group2method/category7-hits-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 42.
+runsystem(repstopdf --outfile=./group2method/category7-hits-NDCG@K-eps-converte
+d-to.pdf ./group2method/category7-hits-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-hits-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:28
+(epstopdf)                    size: 14127 bytes.
+
+<./group2method/category7-hits-NDCG@K-eps-converted-to.pdf, id=20, 529.98pt x 3
+98.48875pt>
+File: ./group2method/category7-hits-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category7-hits-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-hits-NDCG@K-eps-converted-to.
+pdf used on input line 42.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 44.
+
+Package epstopdf Info: Source file: <./group2method/category7-reputation-NDCG@K
+.eps>
+(epstopdf)                    date: 2016-07-19 12:34:39
+(epstopdf)                    size: 46257 bytes
+(epstopdf)             Output file: <./group2method/category7-reputation-NDCG@K
+-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-r
+eputation-NDCG@K-eps-converted-to.pdf ./group2method/category7-reputation-NDCG@
+K.eps>
+(epstopdf)             \includegraphics on input line 48.
+runsystem(repstopdf --outfile=./group2method/category7-reputation-NDCG@K-eps-co
+nverted-to.pdf ./group2method/category7-reputation-NDCG@K.eps)...executed safel
+y (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-reputation-NDCG@K
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:28
+(epstopdf)                    size: 14200 bytes.
+
+<./group2method/category7-reputation-NDCG@K-eps-converted-to.pdf, id=21, 529.98
+pt x 398.48875pt>
+File: ./group2method/category7-reputation-NDCG@K-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use ./group2method/category7-reputation-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-reputation-NDCG@K-eps-convert
+ed-to.pdf used on input line 48.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-sucnum-NDCG@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:34:47
+(epstopdf)                    size: 46266 bytes
+(epstopdf)             Output file: <./group2method/category7-sucnum-NDCG@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-s
+ucnum-NDCG@K-eps-converted-to.pdf ./group2method/category7-sucnum-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 49.
+runsystem(repstopdf --outfile=./group2method/category7-sucnum-NDCG@K-eps-conver
+ted-to.pdf ./group2method/category7-sucnum-NDCG@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category7-sucnum-NDCG@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:29
+(epstopdf)                    size: 14267 bytes.
+
+<./group2method/category7-sucnum-NDCG@K-eps-converted-to.pdf, id=22, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category7-sucnum-NDCG@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category7-sucnum-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-sucnum-NDCG@K-eps-converted-t
+o.pdf used on input line 49.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-sucrate-NDCG@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:34:33
+(epstopdf)                    size: 46228 bytes
+(epstopdf)             Output file: <./group2method/category7-sucrate-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-s
+ucrate-NDCG@K-eps-converted-to.pdf ./group2method/category7-sucrate-NDCG@K.eps>
+
+(epstopdf)             \includegraphics on input line 50.
+runsystem(repstopdf --outfile=./group2method/category7-sucrate-NDCG@K-eps-conve
+rted-to.pdf ./group2method/category7-sucrate-NDCG@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category7-sucrate-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:29
+(epstopdf)                    size: 14108 bytes.
+
+<./group2method/category7-sucrate-NDCG@K-eps-converted-to.pdf, id=23, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category7-sucrate-NDCG@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category7-sucrate-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-sucrate-NDCG@K-eps-converted-
+to.pdf used on input line 50.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 52.
+
+Package epstopdf Info: Source file: <./group2method/category7-time-NDCG@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:44
+(epstopdf)                    size: 46258 bytes
+(epstopdf)             Output file: <./group2method/category7-time-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-t
+ime-NDCG@K-eps-converted-to.pdf ./group2method/category7-time-NDCG@K.eps>
+(epstopdf)             \includegraphics on input line 56.
+runsystem(repstopdf --outfile=./group2method/category7-time-NDCG@K-eps-converte
+d-to.pdf ./group2method/category7-time-NDCG@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-time-NDCG@K-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:29
+(epstopdf)                    size: 14084 bytes.
+
+<./group2method/category7-time-NDCG@K-eps-converted-to.pdf, id=24, 529.98pt x 3
+98.48875pt>
+File: ./group2method/category7-time-NDCG@K-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ./group2method/category7-time-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-time-NDCG@K-eps-converted-to.
+pdf used on input line 56.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-userspecific-NDCG
+@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:49
+(epstopdf)                    size: 46270 bytes
+(epstopdf)             Output file: <./group2method/category7-userspecific-NDCG
+@K-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-u
+serspecific-NDCG@K-eps-converted-to.pdf ./group2method/category7-userspecific-N
+DCG@K.eps>
+(epstopdf)             \includegraphics on input line 57.
+runsystem(repstopdf --outfile=./group2method/category7-userspecific-NDCG@K-eps-
+converted-to.pdf ./group2method/category7-userspecific-NDCG@K.eps)...executed s
+afely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-userspecific-NDCG
+@K-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:30
+(epstopdf)                    size: 14337 bytes.
+
+<./group2method/category7-userspecific-NDCG@K-eps-converted-to.pdf, id=25, 529.
+98pt x 398.48875pt>
+File: ./group2method/category7-userspecific-NDCG@K-eps-converted-to.pdf Graphic
+ file (type pdf)
+
+<use ./group2method/category7-userspecific-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-userspecific-NDCG@K-eps-conve
+rted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-worknum-NDCG@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:34:35
+(epstopdf)                    size: 46268 bytes
+(epstopdf)             Output file: <./group2method/category7-worknum-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-w
+orknum-NDCG@K-eps-converted-to.pdf ./group2method/category7-worknum-NDCG@K.eps>
+
+(epstopdf)             \includegraphics on input line 58.
+runsystem(repstopdf --outfile=./group2method/category7-worknum-NDCG@K-eps-conve
+rted-to.pdf ./group2method/category7-worknum-NDCG@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category7-worknum-NDCG@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:30
+(epstopdf)                    size: 14260 bytes.
+
+<./group2method/category7-worknum-NDCG@K-eps-converted-to.pdf, id=26, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category7-worknum-NDCG@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category7-worknum-NDCG@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-worknum-NDCG@K-eps-converted-
+to.pdf used on input line 58.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 60.
+
+Package epstopdf Info: Source file: <./group2method/category4-cost-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:33:38
+(epstopdf)                    size: 46178 bytes
+(epstopdf)             Output file: <./group2method/category4-cost-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-c
+ost-MAP@K-eps-converted-to.pdf ./group2method/category4-cost-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 64.
+runsystem(repstopdf --outfile=./group2method/category4-cost-MAP@K-eps-converted
+-to.pdf ./group2method/category4-cost-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-cost-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:31
+(epstopdf)                    size: 13721 bytes.
+
+<./group2method/category4-cost-MAP@K-eps-converted-to.pdf, id=27, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category4-cost-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category4-cost-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-cost-MAP@K-eps-converted-to.p
+df used on input line 64.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-employer-MAP@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:33:33
+(epstopdf)                    size: 46217 bytes
+(epstopdf)             Output file: <./group2method/category4-employer-MAP@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-e
+mployer-MAP@K-eps-converted-to.pdf ./group2method/category4-employer-MAP@K.eps>
+
+(epstopdf)             \includegraphics on input line 65.
+runsystem(repstopdf --outfile=./group2method/category4-employer-MAP@K-eps-conve
+rted-to.pdf ./group2method/category4-employer-MAP@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category4-employer-MAP@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:31
+(epstopdf)                    size: 13785 bytes.
+
+<./group2method/category4-employer-MAP@K-eps-converted-to.pdf, id=28, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category4-employer-MAP@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category4-employer-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-employer-MAP@K-eps-converted-
+to.pdf used on input line 65.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-hits-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:33:48
+(epstopdf)                    size: 46182 bytes
+(epstopdf)             Output file: <./group2method/category4-hits-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-h
+its-MAP@K-eps-converted-to.pdf ./group2method/category4-hits-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 66.
+runsystem(repstopdf --outfile=./group2method/category4-hits-MAP@K-eps-converted
+-to.pdf ./group2method/category4-hits-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-hits-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:32
+(epstopdf)                    size: 13785 bytes.
+
+<./group2method/category4-hits-MAP@K-eps-converted-to.pdf, id=29, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category4-hits-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category4-hits-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-hits-MAP@K-eps-converted-to.p
+df used on input line 66.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 68.
+
+Package epstopdf Info: Source file: <./group2method/category4-reputation-MAP@K.
+eps>
+(epstopdf)                    date: 2016-07-19 12:33:36
+(epstopdf)                    size: 46230 bytes
+(epstopdf)             Output file: <./group2method/category4-reputation-MAP@K-
+eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-r
+eputation-MAP@K-eps-converted-to.pdf ./group2method/category4-reputation-MAP@K.
+eps>
+(epstopdf)             \includegraphics on input line 72.
+runsystem(repstopdf --outfile=./group2method/category4-reputation-MAP@K-eps-con
+verted-to.pdf ./group2method/category4-reputation-MAP@K.eps)...executed safely 
+(allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-reputation-MAP@K-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:32
+(epstopdf)                    size: 13848 bytes.
+
+<./group2method/category4-reputation-MAP@K-eps-converted-to.pdf, id=30, 529.98p
+t x 398.48875pt>
+File: ./group2method/category4-reputation-MAP@K-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ./group2method/category4-reputation-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-reputation-MAP@K-eps-converte
+d-to.pdf used on input line 72.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-sucnum-MAP@K.eps>
+
+(epstopdf)                    date: 2016-07-19 12:33:43
+(epstopdf)                    size: 46230 bytes
+(epstopdf)             Output file: <./group2method/category4-sucnum-MAP@K-eps-
+converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-s
+ucnum-MAP@K-eps-converted-to.pdf ./group2method/category4-sucnum-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 73.
+runsystem(repstopdf --outfile=./group2method/category4-sucnum-MAP@K-eps-convert
+ed-to.pdf ./group2method/category4-sucnum-MAP@K.eps)...executed safely (allowed
+).
+
+Package epstopdf Info: Result file: <./group2method/category4-sucnum-MAP@K-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:32
+(epstopdf)                    size: 13936 bytes.
+
+<./group2method/category4-sucnum-MAP@K-eps-converted-to.pdf, id=31, 529.98pt x 
+398.48875pt>
+File: ./group2method/category4-sucnum-MAP@K-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use ./group2method/category4-sucnum-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-sucnum-MAP@K-eps-converted-to
+.pdf used on input line 73.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-sucrate-MAP@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:33:28
+(epstopdf)                    size: 46216 bytes
+(epstopdf)             Output file: <./group2method/category4-sucrate-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-s
+ucrate-MAP@K-eps-converted-to.pdf ./group2method/category4-sucrate-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 74.
+runsystem(repstopdf --outfile=./group2method/category4-sucrate-MAP@K-eps-conver
+ted-to.pdf ./group2method/category4-sucrate-MAP@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category4-sucrate-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:33
+(epstopdf)                    size: 13774 bytes.
+
+<./group2method/category4-sucrate-MAP@K-eps-converted-to.pdf, id=32, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category4-sucrate-MAP@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category4-sucrate-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-sucrate-MAP@K-eps-converted-t
+o.pdf used on input line 74.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 76.
+
+Package epstopdf Info: Source file: <./group2method/category4-time-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:33:40
+(epstopdf)                    size: 46218 bytes
+(epstopdf)             Output file: <./group2method/category4-time-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-t
+ime-MAP@K-eps-converted-to.pdf ./group2method/category4-time-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 80.
+runsystem(repstopdf --outfile=./group2method/category4-time-MAP@K-eps-converted
+-to.pdf ./group2method/category4-time-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-time-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:33
+(epstopdf)                    size: 13699 bytes.
+
+<./group2method/category4-time-MAP@K-eps-converted-to.pdf, id=33, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category4-time-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category4-time-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-time-MAP@K-eps-converted-to.p
+df used on input line 80.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-userspecific-MAP@
+K.eps>
+(epstopdf)                    date: 2016-07-19 12:33:45
+(epstopdf)                    size: 46214 bytes
+(epstopdf)             Output file: <./group2method/category4-userspecific-MAP@
+K-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-u
+serspecific-MAP@K-eps-converted-to.pdf ./group2method/category4-userspecific-MA
+P@K.eps>
+(epstopdf)             \includegraphics on input line 81.
+runsystem(repstopdf --outfile=./group2method/category4-userspecific-MAP@K-eps-c
+onverted-to.pdf ./group2method/category4-userspecific-MAP@K.eps)...executed saf
+ely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category4-userspecific-MAP@
+K-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:34
+(epstopdf)                    size: 13966 bytes.
+
+<./group2method/category4-userspecific-MAP@K-eps-converted-to.pdf, id=34, 529.9
+8pt x 398.48875pt>
+File: ./group2method/category4-userspecific-MAP@K-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use ./group2method/category4-userspecific-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-userspecific-MAP@K-eps-conver
+ted-to.pdf used on input line 81.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category4-worknum-MAP@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:33:31
+(epstopdf)                    size: 46196 bytes
+(epstopdf)             Output file: <./group2method/category4-worknum-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category4-w
+orknum-MAP@K-eps-converted-to.pdf ./group2method/category4-worknum-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 82.
+runsystem(repstopdf --outfile=./group2method/category4-worknum-MAP@K-eps-conver
+ted-to.pdf ./group2method/category4-worknum-MAP@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category4-worknum-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:34
+(epstopdf)                    size: 13867 bytes.
+
+<./group2method/category4-worknum-MAP@K-eps-converted-to.pdf, id=35, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category4-worknum-MAP@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category4-worknum-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category4-worknum-MAP@K-eps-converted-t
+o.pdf used on input line 82.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 84.
+
+Package epstopdf Info: Source file: <./group2method/category7-cost-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:33:59
+(epstopdf)                    size: 46246 bytes
+(epstopdf)             Output file: <./group2method/category7-cost-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-c
+ost-MAP@K-eps-converted-to.pdf ./group2method/category7-cost-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 88.
+runsystem(repstopdf --outfile=./group2method/category7-cost-MAP@K-eps-converted
+-to.pdf ./group2method/category7-cost-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-cost-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:35
+(epstopdf)                    size: 13789 bytes.
+
+<./group2method/category7-cost-MAP@K-eps-converted-to.pdf, id=36, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category7-cost-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category7-cost-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-cost-MAP@K-eps-converted-to.p
+df used on input line 88.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-employer-MAP@K.ep
+s>
+(epstopdf)                    date: 2016-07-19 12:33:55
+(epstopdf)                    size: 46225 bytes
+(epstopdf)             Output file: <./group2method/category7-employer-MAP@K-ep
+s-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-e
+mployer-MAP@K-eps-converted-to.pdf ./group2method/category7-employer-MAP@K.eps>
+
+(epstopdf)             \includegraphics on input line 89.
+runsystem(repstopdf --outfile=./group2method/category7-employer-MAP@K-eps-conve
+rted-to.pdf ./group2method/category7-employer-MAP@K.eps)...executed safely (all
+owed).
+
+Package epstopdf Info: Result file: <./group2method/category7-employer-MAP@K-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:35
+(epstopdf)                    size: 13896 bytes.
+
+<./group2method/category7-employer-MAP@K-eps-converted-to.pdf, id=37, 529.98pt 
+x 398.48875pt>
+File: ./group2method/category7-employer-MAP@K-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ./group2method/category7-employer-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-employer-MAP@K-eps-converted-
+to.pdf used on input line 89.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-hits-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:09
+(epstopdf)                    size: 46230 bytes
+(epstopdf)             Output file: <./group2method/category7-hits-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-h
+its-MAP@K-eps-converted-to.pdf ./group2method/category7-hits-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 90.
+runsystem(repstopdf --outfile=./group2method/category7-hits-MAP@K-eps-converted
+-to.pdf ./group2method/category7-hits-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-hits-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:36
+(epstopdf)                    size: 13820 bytes.
+
+<./group2method/category7-hits-MAP@K-eps-converted-to.pdf, id=38, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category7-hits-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category7-hits-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-hits-MAP@K-eps-converted-to.p
+df used on input line 90.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 92.
+
+Package epstopdf Info: Source file: <./group2method/category7-reputation-MAP@K.
+eps>
+(epstopdf)                    date: 2016-07-19 12:33:57
+(epstopdf)                    size: 46254 bytes
+(epstopdf)             Output file: <./group2method/category7-reputation-MAP@K-
+eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-r
+eputation-MAP@K-eps-converted-to.pdf ./group2method/category7-reputation-MAP@K.
+eps>
+(epstopdf)             \includegraphics on input line 96.
+runsystem(repstopdf --outfile=./group2method/category7-reputation-MAP@K-eps-con
+verted-to.pdf ./group2method/category7-reputation-MAP@K.eps)...executed safely 
+(allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-reputation-MAP@K-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:36
+(epstopdf)                    size: 13936 bytes.
+
+<./group2method/category7-reputation-MAP@K-eps-converted-to.pdf, id=39, 529.98p
+t x 398.48875pt>
+File: ./group2method/category7-reputation-MAP@K-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use ./group2method/category7-reputation-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-reputation-MAP@K-eps-converte
+d-to.pdf used on input line 96.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-sucnum-MAP@K.eps>
+
+(epstopdf)                    date: 2016-07-19 12:34:04
+(epstopdf)                    size: 46214 bytes
+(epstopdf)             Output file: <./group2method/category7-sucnum-MAP@K-eps-
+converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-s
+ucnum-MAP@K-eps-converted-to.pdf ./group2method/category7-sucnum-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 97.
+runsystem(repstopdf --outfile=./group2method/category7-sucnum-MAP@K-eps-convert
+ed-to.pdf ./group2method/category7-sucnum-MAP@K.eps)...executed safely (allowed
+).
+
+Package epstopdf Info: Result file: <./group2method/category7-sucnum-MAP@K-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:36
+(epstopdf)                    size: 13962 bytes.
+
+<./group2method/category7-sucnum-MAP@K-eps-converted-to.pdf, id=40, 529.98pt x 
+398.48875pt>
+File: ./group2method/category7-sucnum-MAP@K-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use ./group2method/category7-sucnum-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-sucnum-MAP@K-eps-converted-to
+.pdf used on input line 97.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-sucrate-MAP@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:33:50
+(epstopdf)                    size: 46228 bytes
+(epstopdf)             Output file: <./group2method/category7-sucrate-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-s
+ucrate-MAP@K-eps-converted-to.pdf ./group2method/category7-sucrate-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 98.
+runsystem(repstopdf --outfile=./group2method/category7-sucrate-MAP@K-eps-conver
+ted-to.pdf ./group2method/category7-sucrate-MAP@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category7-sucrate-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:37
+(epstopdf)                    size: 13876 bytes.
+
+<./group2method/category7-sucrate-MAP@K-eps-converted-to.pdf, id=41, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category7-sucrate-MAP@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category7-sucrate-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-sucrate-MAP@K-eps-converted-t
+o.pdf used on input line 98.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 100.
+
+Package epstopdf Info: Source file: <./group2method/category7-time-MAP@K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:02
+(epstopdf)                    size: 46234 bytes
+(epstopdf)             Output file: <./group2method/category7-time-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-t
+ime-MAP@K-eps-converted-to.pdf ./group2method/category7-time-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 104.
+runsystem(repstopdf --outfile=./group2method/category7-time-MAP@K-eps-converted
+-to.pdf ./group2method/category7-time-MAP@K.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-time-MAP@K-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:37
+(epstopdf)                    size: 13784 bytes.
+
+<./group2method/category7-time-MAP@K-eps-converted-to.pdf, id=42, 529.98pt x 39
+8.48875pt>
+File: ./group2method/category7-time-MAP@K-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ./group2method/category7-time-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-time-MAP@K-eps-converted-to.p
+df used on input line 104.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-userspecific-MAP@
+K.eps>
+(epstopdf)                    date: 2016-07-19 12:34:07
+(epstopdf)                    size: 46262 bytes
+(epstopdf)             Output file: <./group2method/category7-userspecific-MAP@
+K-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-u
+serspecific-MAP@K-eps-converted-to.pdf ./group2method/category7-userspecific-MA
+P@K.eps>
+(epstopdf)             \includegraphics on input line 105.
+runsystem(repstopdf --outfile=./group2method/category7-userspecific-MAP@K-eps-c
+onverted-to.pdf ./group2method/category7-userspecific-MAP@K.eps)...executed saf
+ely (allowed).
+
+Package epstopdf Info: Result file: <./group2method/category7-userspecific-MAP@
+K-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:38
+(epstopdf)                    size: 14071 bytes.
+
+<./group2method/category7-userspecific-MAP@K-eps-converted-to.pdf, id=43, 529.9
+8pt x 398.48875pt>
+File: ./group2method/category7-userspecific-MAP@K-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use ./group2method/category7-userspecific-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-userspecific-MAP@K-eps-conver
+ted-to.pdf used on input line 105.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+Package epstopdf Info: Source file: <./group2method/category7-worknum-MAP@K.eps
+>
+(epstopdf)                    date: 2016-07-19 12:33:52
+(epstopdf)                    size: 46252 bytes
+(epstopdf)             Output file: <./group2method/category7-worknum-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=./group2method/category7-w
+orknum-MAP@K-eps-converted-to.pdf ./group2method/category7-worknum-MAP@K.eps>
+(epstopdf)             \includegraphics on input line 106.
+runsystem(repstopdf --outfile=./group2method/category7-worknum-MAP@K-eps-conver
+ted-to.pdf ./group2method/category7-worknum-MAP@K.eps)...executed safely (allow
+ed).
+
+Package epstopdf Info: Result file: <./group2method/category7-worknum-MAP@K-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2016-07-19 13:34:38
+(epstopdf)                    size: 13967 bytes.
+
+<./group2method/category7-worknum-MAP@K-eps-converted-to.pdf, id=44, 529.98pt x
+ 398.48875pt>
+File: ./group2method/category7-worknum-MAP@K-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ./group2method/category7-worknum-MAP@K-eps-converted-to.pdf>
+Package pdftex.def Info: ./group2method/category7-worknum-MAP@K-eps-converted-t
+o.pdf used on input line 106.
+(pdftex.def)             Requested size: 512.18764pt x 256.08385pt.
+
+
+LaTeX Warning: Float too large for page by 43.09665pt on input line 108.
+
+[2 <./group2method/category4-cost-NDCG@K-eps-converted-to.pdf> <./group2method/
+category4-employer-NDCG@K-eps-converted-to.pdf> <./group2method/category4-hits-
+NDCG@K-eps-converted-to.pdf>] [3 <./group2method/category4-reputation-NDCG@K-ep
+s-converted-to.pdf> <./group2method/category4-sucnum-NDCG@K-eps-converted-to.pd
+f> <./group2method/category4-sucrate-NDCG@K-eps-converted-to.pdf>] [4 <./group2
+method/category4-time-NDCG@K-eps-converted-to.pdf> <./group2method/category4-us
+erspecific-NDCG@K-eps-converted-to.pdf> <./group2method/category4-worknum-NDCG@
+K-eps-converted-to.pdf>] [5 <./group2method/category7-cost-NDCG@K-eps-converted
+-to.pdf> <./group2method/category7-employer-NDCG@K-eps-converted-to.pdf> <./gro
+up2method/category7-hits-NDCG@K-eps-converted-to.pdf>] [6 <./group2method/categ
+ory7-reputation-NDCG@K-eps-converted-to.pdf> <./group2method/category7-sucnum-N
+DCG@K-eps-converted-to.pdf> <./group2method/category7-sucrate-NDCG@K-eps-conver
+ted-to.pdf>] [7 <./group2method/category7-time-NDCG@K-eps-converted-to.pdf> <./
+group2method/category7-userspecific-NDCG@K-eps-converted-to.pdf> <./group2metho
+d/category7-worknum-NDCG@K-eps-converted-to.pdf>] [8 <./group2method/category4-
+cost-MAP@K-eps-converted-to.pdf> <./group2method/category4-employer-MAP@K-eps-c
+onverted-to.pdf> <./group2method/category4-hits-MAP@K-eps-converted-to.pdf>]
+[9 <./group2method/category4-reputation-MAP@K-eps-converted-to.pdf> <./group2me
+thod/category4-sucnum-MAP@K-eps-converted-to.pdf> <./group2method/category4-suc
+rate-MAP@K-eps-converted-to.pdf>] [10 <./group2method/category4-time-MAP@K-eps-
+converted-to.pdf> <./group2method/category4-userspecific-MAP@K-eps-converted-to
+.pdf> <./group2method/category4-worknum-MAP@K-eps-converted-to.pdf>] [11 <./gro
+up2method/category7-cost-MAP@K-eps-converted-to.pdf> <./group2method/category7-
+employer-MAP@K-eps-converted-to.pdf> <./group2method/category7-hits-MAP@K-eps-c
+onverted-to.pdf>] [12 <./group2method/category7-reputation-MAP@K-eps-converted-
+to.pdf> <./group2method/category7-sucnum-MAP@K-eps-converted-to.pdf> <./group2m
+ethod/category7-sucrate-MAP@K-eps-converted-to.pdf>] [13 <./group2method/catego
+ry7-time-MAP@K-eps-converted-to.pdf> <./group2method/category7-userspecific-MAP
+@K-eps-converted-to.pdf> <./group2method/category7-worknum-MAP@K-eps-converted-
+to.pdf>] (./result.aux) ) 
+Here is how much of TeX's memory you used:
+ 2736 strings out of 493089
+ 45395 string characters out of 6134842
+ 106276 words of memory out of 5000000
+ 6168 multiletter control sequences out of 15000+600000
+ 7349 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,6n,23p,291b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr17.pfb>
+Output written on result.pdf (13 pages, 402821 bytes).
+PDF statistics:
+ 385 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,16 @@
+{'piecework_id';'user_id';'release_user_id';'task_id';'ability_level_int';
+'relative_reputation_rank';'relative_reputation';'submit_days';'submit_rank';
+'relative_submit_rank';'discrete_relative_submit_bin';'ever_met';'task_cate_ct';
+'piecework_ct';'special_customer_type';'fuwubao';'recomment_employ';
+'recommend_customer';'max_piecework_id';'median_price';'median_price_level';
+'7d_work_ct_all';'14d_work_ct_all';'30d_work_ct_all';'num_suc_work_ct_all';
+'num_cost_work_ct_all';'suc_rate_all';'piecework_ct_cate';'piecework_ct_cate_rate';
+'piecework_ct_price';'piecework_ct_price_rate';'7d_work_ct_cate';'7d_work_ct_price';
+'14d_work_ct_cate';'14d_work_ct_price';'30d_work_ct_cate';'30d_work_ct_price';
+'num_suc_work_ct_cate';'num_suc_work_ct_price';'num_cost_work_ct_cate';
+'num_cost_work_ct_price';'suc_rate_cate';'suc_rate_price';'mean_selected_reputation';
+'median_selected_reputation';'mean_selected_relateive_reputation';
+'median_selected_relateive_reputation';'mean_selected_submit_days';
+'median_selected_submit_days';'mean_selected_reputation';'median_selected_reputation';
+'mean_selected_relateive_reputation';'median_selected_relateive_reputation';
+'mean_selected_submit_days';'median_selected_submit_days'}

@@ -1,0 +1,415 @@
+load data finished!	 Elapsed time: 4.2048 seconds. 
+---------------------------------------The 1-th feature round begin!---------------------------------------
+The 1-th feature round---The 1-th category round:begin!
+The 1-th feature round---The 1-th category round: data assembled	 Elapsed time: 4.2449 seconds. 
+k=1"s MAP is 0.20213; NDCG is 0.20178
+k=2"s MAP is 0.26596; NDCG is 0.28093
+k=3"s MAP is 0.29965; NDCG is 0.33107
+k=4"s MAP is 0.32861; NDCG is 0.37812
+k=5"s MAP is 0.34563; NDCG is 0.40725
+k=6"s MAP is 0.35875; NDCG is 0.43534
+k=7"s MAP is 0.36002; NDCG is 0.44445
+k=8"s MAP is 0.36508; NDCG is 0.46005
+k=9"s MAP is 0.36863; NDCG is 0.47119
+k=10"s MAP is 0.37182; NDCG is 0.48054
+acc 	 precision 	 recall 	 fscore 
+0.86428	0.22059	0.22059	0.22059
+tp 	 fp 	 tn 	 fn  
+30	106	1320	106
+The 1-th feature round---The 1-th category round : finished	 Elapsed time: 7.6603 seconds. 
+The 1-th feature round---The 2-th category round:begin!
+The 1-th feature round---The 2-th category round: data assembled	 Elapsed time: 8.5272 seconds. 
+k=1"s MAP is 0.13427; NDCG is 0.14168
+k=2"s MAP is 0.1904; NDCG is 0.21324
+k=3"s MAP is 0.22138; NDCG is 0.26021
+k=4"s MAP is 0.24203; NDCG is 0.29593
+k=5"s MAP is 0.25613; NDCG is 0.32369
+k=6"s MAP is 0.26607; NDCG is 0.3457
+k=7"s MAP is 0.27394; NDCG is 0.36459
+k=8"s MAP is 0.28094; NDCG is 0.38288
+k=9"s MAP is 0.28596; NDCG is 0.39754
+k=10"s MAP is 0.29027; NDCG is 0.41038
+acc 	 precision 	 recall 	 fscore 
+0.90774	0.1393	0.1393	0.1393
+tp 	 fp 	 tn 	 fn  
+801	4949	96590	4949
+The 1-th feature round---The 2-th category round : finished	 Elapsed time: 667.4636 seconds. 
+The 1-th feature round---The 3-th category round:begin!
+The 1-th feature round---The 3-th category round: data assembled	 Elapsed time: 667.4916 seconds. 
+k=1"s MAP is 0.25; NDCG is 0.25
+k=2"s MAP is 0.3125; NDCG is 0.32887
+k=3"s MAP is 0.3125; NDCG is 0.32887
+k=4"s MAP is 0.34375; NDCG is 0.3827
+k=5"s MAP is 0.34375; NDCG is 0.3827
+k=6"s MAP is 0.36458; NDCG is 0.42723
+k=7"s MAP is 0.38244; NDCG is 0.46889
+k=8"s MAP is 0.39807; NDCG is 0.50833
+k=9"s MAP is 0.39807; NDCG is 0.50833
+k=10"s MAP is 0.39807; NDCG is 0.50833
+acc 	 precision 	 recall 	 fscore 
+0.80328	0.25	0.25	0.25
+tp 	 fp 	 tn 	 fn  
+2	6	47	6
+The 1-th feature round---The 3-th category round : finished	 Elapsed time: 668.1717 seconds. 
+The 1-th feature round---The 4-th category round:begin!
+The 1-th feature round---The 4-th category round: data assembled	 Elapsed time: 668.3015 seconds. 
+k=1"s MAP is 0.15; NDCG is 0.15581
+k=2"s MAP is 0.165; NDCG is 0.17613
+k=3"s MAP is 0.185; NDCG is 0.20572
+k=4"s MAP is 0.1925; NDCG is 0.21907
+k=5"s MAP is 0.2085; NDCG is 0.2503
+k=6"s MAP is 0.21017; NDCG is 0.25397
+k=7"s MAP is 0.21731; NDCG is 0.27161
+k=8"s MAP is 0.22356; NDCG is 0.28804
+k=9"s MAP is 0.22467; NDCG is 0.29112
+k=10"s MAP is 0.22767; NDCG is 0.29907
+acc 	 precision 	 recall 	 fscore 
+0.96858	0.12605	0.12605	0.12605
+tp 	 fp 	 tn 	 fn  
+15	104	6397	104
+The 1-th feature round---The 4-th category round : finished	 Elapsed time: 712.2323 seconds. 
+The 1-th feature round---The 5-th category round:begin!
+The 1-th feature round---The 6-th category round:begin!
+The 1-th feature round---The 6-th category round: data assembled	 Elapsed time: 712.256 seconds. 
+k=1"s MAP is 0.14286; NDCG is 0.14977
+k=2"s MAP is 0.28571; NDCG is 0.31775
+k=3"s MAP is 0.30952; NDCG is 0.34965
+k=4"s MAP is 0.32738; NDCG is 0.37661
+k=5"s MAP is 0.37024; NDCG is 0.46183
+k=6"s MAP is 0.37024; NDCG is 0.46397
+k=7"s MAP is 0.37024; NDCG is 0.46397
+k=8"s MAP is 0.37917; NDCG is 0.49029
+k=9"s MAP is 0.37917; NDCG is 0.4921
+k=10"s MAP is 0.38631; NDCG is 0.51637
+acc 	 precision 	 recall 	 fscore 
+0.83099	0.14286	0.14286	0.14286
+tp 	 fp 	 tn 	 fn  
+2	12	116	12
+The 1-th feature round---The 6-th category round : finished	 Elapsed time: 713.0357 seconds. 
+The 1-th feature round---The 7-th category round:begin!
+The 1-th feature round---The 7-th category round: data assembled	 Elapsed time: 713.202 seconds. 
+k=1"s MAP is 0.087931; NDCG is 0.093938
+k=2"s MAP is 0.11293; NDCG is 0.12554
+k=3"s MAP is 0.13132; NDCG is 0.15329
+k=4"s MAP is 0.14555; NDCG is 0.17817
+k=5"s MAP is 0.15658; NDCG is 0.19962
+k=6"s MAP is 0.16405; NDCG is 0.21545
+k=7"s MAP is 0.17095; NDCG is 0.23161
+k=8"s MAP is 0.17526; NDCG is 0.24291
+k=9"s MAP is 0.17966; NDCG is 0.25515
+k=10"s MAP is 0.18449; NDCG is 0.26921
+acc 	 precision 	 recall 	 fscore 
+0.94419	0.087931	0.087931	0.087931
+tp 	 fp 	 tn 	 fn  
+51	529	17849	529
+The 1-th feature round---The 7-th category round : finished	 Elapsed time: 819.2573 seconds. 
+The 1-th feature round---The 8-th category round:begin!
+The 1-th feature round---The 8-th category round: data assembled	 Elapsed time: 819.2752 seconds. 
+k=1"s MAP is 1; NDCG is 1
+k=2"s MAP is 1; NDCG is 1
+k=3"s MAP is 1; NDCG is 1
+k=4"s MAP is 1; NDCG is 1
+k=5"s MAP is 1; NDCG is 1
+k=6"s MAP is 1; NDCG is 1
+k=7"s MAP is 1; NDCG is 1
+k=8"s MAP is 1; NDCG is 1
+k=9"s MAP is 1; NDCG is 1
+k=10"s MAP is 1; NDCG is 1
+acc 	 precision 	 recall 	 fscore 
+1	1	1	1
+tp 	 fp 	 tn 	 fn  
+2	0	0	0
+The 1-th feature round---The 8-th category round : finished	 Elapsed time: 819.5123 seconds. 
+The 1-th feature round---The 9-th category round:begin!
+The 1-th feature round---The 9-th category round: data assembled	 Elapsed time: 820.6032 seconds. 
+k=1"s MAP is 0.12127; NDCG is 0.12895
+k=2"s MAP is 0.17573; NDCG is 0.1985
+k=3"s MAP is 0.20656; NDCG is 0.24486
+k=4"s MAP is 0.22531; NDCG is 0.27744
+k=5"s MAP is 0.23973; NDCG is 0.30552
+k=6"s MAP is 0.25032; NDCG is 0.32881
+k=7"s MAP is 0.25834; NDCG is 0.34818
+k=8"s MAP is 0.26409; NDCG is 0.36348
+k=9"s MAP is 0.2692; NDCG is 0.3779
+k=10"s MAP is 0.2733; NDCG is 0.39024
+acc 	 precision 	 recall 	 fscore 
+0.91409	0.12498	0.12498	0.12498
+tp 	 fp 	 tn 	 fn  
+826	5783	122242	5783
+The 1-th feature round---The 9-th category round : finished	 Elapsed time: 1755.4876 seconds. 
+---------------------------------------The 2-th feature round begin!---------------------------------------
+The 2-th feature round---The 1-th category round:begin!
+The 2-th feature round---The 1-th category round: data assembled	 Elapsed time: 1755.5251 seconds. 
+k=1"s MAP is 0.19149; NDCG is 0.19218
+k=2"s MAP is 0.28723; NDCG is 0.29983
+k=3"s MAP is 0.33067; NDCG is 0.36158
+k=4"s MAP is 0.36052; NDCG is 0.41397
+k=5"s MAP is 0.3779; NDCG is 0.44756
+k=6"s MAP is 0.38506; NDCG is 0.47398
+k=7"s MAP is 0.38825; NDCG is 0.48287
+k=8"s MAP is 0.38961; NDCG is 0.48722
+k=9"s MAP is 0.39315; NDCG is 0.49657
+k=10"s MAP is 0.39315; NDCG is 0.4965
+acc 	 precision 	 recall 	 fscore 
+0.86428	0.22059	0.22059	0.22059
+tp 	 fp 	 tn 	 fn  
+30	106	1320	106
+The 2-th feature round---The 1-th category round : finished	 Elapsed time: 1759.6982 seconds. 
+The 2-th feature round---The 2-th category round:begin!
+The 2-th feature round---The 2-th category round: data assembled	 Elapsed time: 1760.8414 seconds. 
+k=1"s MAP is 0.16247; NDCG is 0.17179
+k=2"s MAP is 0.22458; NDCG is 0.2509
+k=3"s MAP is 0.25902; NDCG is 0.30259
+k=4"s MAP is 0.27938; NDCG is 0.33814
+k=5"s MAP is 0.29467; NDCG is 0.368
+k=6"s MAP is 0.3048; NDCG is 0.39005
+k=7"s MAP is 0.31227; NDCG is 0.40841
+k=8"s MAP is 0.31806; NDCG is 0.42396
+k=9"s MAP is 0.32284; NDCG is 0.43738
+k=10"s MAP is 0.32682; NDCG is 0.44952
+acc 	 precision 	 recall 	 fscore 
+0.91065	0.16643	0.16643	0.16643
+tp 	 fp 	 tn 	 fn  
+957	4793	96746	4793
+The 2-th feature round---The 2-th category round : finished	 Elapsed time: 2706.2984 seconds. 
+The 2-th feature round---The 3-th category round:begin!
+The 2-th feature round---The 3-th category round: data assembled	 Elapsed time: 2706.3239 seconds. 
+k=1"s MAP is 0.375; NDCG is 0.375
+k=2"s MAP is 0.4375; NDCG is 0.45387
+k=3"s MAP is 0.4375; NDCG is 0.45387
+k=4"s MAP is 0.46875; NDCG is 0.5077
+k=5"s MAP is 0.46875; NDCG is 0.5077
+k=6"s MAP is 0.46875; NDCG is 0.5077
+k=7"s MAP is 0.50446; NDCG is 0.59103
+k=8"s MAP is 0.50446; NDCG is 0.59103
+k=9"s MAP is 0.50446; NDCG is 0.59103
+k=10"s MAP is 0.51696; NDCG is 0.62717
+acc 	 precision 	 recall 	 fscore 
+0.83607	0.375	0.375	0.375
+tp 	 fp 	 tn 	 fn  
+3	5	48	5
+The 2-th feature round---The 3-th category round : finished	 Elapsed time: 2707.062 seconds. 
+The 2-th feature round---The 4-th category round:begin!
+The 2-th feature round---The 4-th category round: data assembled	 Elapsed time: 2707.2409 seconds. 
+k=1"s MAP is 0.12; NDCG is 0.12484
+k=2"s MAP is 0.17; NDCG is 0.18808
+k=3"s MAP is 0.19667; NDCG is 0.22641
+k=4"s MAP is 0.21417; NDCG is 0.2555
+k=5"s MAP is 0.21617; NDCG is 0.26142
+k=6"s MAP is 0.2245; NDCG is 0.27918
+k=7"s MAP is 0.23164; NDCG is 0.29653
+k=8"s MAP is 0.23539; NDCG is 0.30609
+k=9"s MAP is 0.23762; NDCG is 0.3128
+k=10"s MAP is 0.24162; NDCG is 0.32379
+acc 	 precision 	 recall 	 fscore 
+0.96767	0.10084	0.10084	0.10084
+tp 	 fp 	 tn 	 fn  
+12	107	6394	107
+The 2-th feature round---The 4-th category round : finished	 Elapsed time: 2761.4018 seconds. 
+The 2-th feature round---The 5-th category round:begin!
+The 2-th feature round---The 6-th category round:begin!
+The 2-th feature round---The 6-th category round: data assembled	 Elapsed time: 2761.4299 seconds. 
+k=1"s MAP is 0.28571; NDCG is 0.29263
+k=2"s MAP is 0.42857; NDCG is 0.4699
+k=3"s MAP is 0.42857; NDCG is 0.47088
+k=4"s MAP is 0.44643; NDCG is 0.49579
+k=5"s MAP is 0.475; NDCG is 0.55338
+k=6"s MAP is 0.475; NDCG is 0.55338
+k=7"s MAP is 0.4852; NDCG is 0.57919
+k=8"s MAP is 0.4852; NDCG is 0.57919
+k=9"s MAP is 0.4852; NDCG is 0.581
+k=10"s MAP is 0.4852; NDCG is 0.58462
+acc 	 precision 	 recall 	 fscore 
+0.85915	0.28571	0.28571	0.28571
+tp 	 fp 	 tn 	 fn  
+4	10	118	10
+The 2-th feature round---The 6-th category round : finished	 Elapsed time: 2762.4701 seconds. 
+The 2-th feature round---The 7-th category round:begin!
+The 2-th feature round---The 7-th category round: data assembled	 Elapsed time: 2762.6766 seconds. 
+k=1"s MAP is 0.07931; NDCG is 0.084316
+k=2"s MAP is 0.11121; NDCG is 0.1239
+k=3"s MAP is 0.12845; NDCG is 0.1505
+k=4"s MAP is 0.14009; NDCG is 0.17073
+k=5"s MAP is 0.1494; NDCG is 0.18889
+k=6"s MAP is 0.15744; NDCG is 0.20641
+k=7"s MAP is 0.16409; NDCG is 0.22227
+k=8"s MAP is 0.17034; NDCG is 0.23819
+k=9"s MAP is 0.17571; NDCG is 0.25337
+k=10"s MAP is 0.18036; NDCG is 0.26679
+acc 	 precision 	 recall 	 fscore 
+0.94366	0.07931	0.07931	0.07931
+tp 	 fp 	 tn 	 fn  
+46	534	17844	534
+The 2-th feature round---The 7-th category round : finished	 Elapsed time: 2910.2286 seconds. 
+The 2-th feature round---The 8-th category round:begin!
+The 2-th feature round---The 8-th category round: data assembled	 Elapsed time: 2910.2487 seconds. 
+k=1"s MAP is 1; NDCG is 1
+k=2"s MAP is 1; NDCG is 1
+k=3"s MAP is 1; NDCG is 1
+k=4"s MAP is 1; NDCG is 1
+k=5"s MAP is 1; NDCG is 1
+k=6"s MAP is 1; NDCG is 1
+k=7"s MAP is 1; NDCG is 1
+k=8"s MAP is 1; NDCG is 1
+k=9"s MAP is 1; NDCG is 1
+k=10"s MAP is 1; NDCG is 1
+acc 	 precision 	 recall 	 fscore 
+1	1	1	1
+tp 	 fp 	 tn 	 fn  
+2	0	0	0
+The 2-th feature round---The 8-th category round : finished	 Elapsed time: 2910.4906 seconds. 
+The 2-th feature round---The 9-th category round:begin!
+The 2-th feature round---The 9-th category round: data assembled	 Elapsed time: 2911.9676 seconds. 
+k=1"s MAP is 0.1582; NDCG is 0.16656
+k=2"s MAP is 0.21621; NDCG is 0.24026
+k=3"s MAP is 0.24976; NDCG is 0.29053
+k=4"s MAP is 0.26893; NDCG is 0.32406
+k=5"s MAP is 0.28291; NDCG is 0.35171
+k=6"s MAP is 0.29282; NDCG is 0.37315
+k=7"s MAP is 0.3003; NDCG is 0.39119
+k=8"s MAP is 0.30586; NDCG is 0.40607
+k=9"s MAP is 0.31002; NDCG is 0.41816
+k=10"s MAP is 0.31394; NDCG is 0.43029
+acc 	 precision 	 recall 	 fscore 
+0.91769	0.1616	0.1616	0.1616
+tp 	 fp 	 tn 	 fn  
+1068	5541	122484	5541
+The 2-th feature round---The 9-th category round : finished	 Elapsed time: 4210.8284 seconds. 
+---------------------------------------The 3-th feature round begin!---------------------------------------
+The 3-th feature round---The 1-th category round:begin!
+The 3-th feature round---The 1-th category round: data assembled	 Elapsed time: 4210.8687 seconds. 
+k=1"s MAP is 0.21277; NDCG is 0.20796
+k=2"s MAP is 0.28723; NDCG is 0.29778
+k=3"s MAP is 0.31738; NDCG is 0.34451
+k=4"s MAP is 0.34752; NDCG is 0.39206
+k=5"s MAP is 0.37382; NDCG is 0.44566
+k=6"s MAP is 0.38091; NDCG is 0.46559
+k=7"s MAP is 0.38504; NDCG is 0.47796
+k=8"s MAP is 0.38755; NDCG is 0.48626
+k=9"s MAP is 0.39228; NDCG is 0.49849
+k=10"s MAP is 0.39547; NDCG is 0.50803
+acc 	 precision 	 recall 	 fscore 
+0.86428	0.22059	0.22059	0.22059
+tp 	 fp 	 tn 	 fn  
+30	106	1320	106
+The 3-th feature round---The 1-th category round : finished	 Elapsed time: 4215.1212 seconds. 
+The 3-th feature round---The 2-th category round:begin!
+The 3-th feature round---The 2-th category round: data assembled	 Elapsed time: 4216.6094 seconds. 
+k=1"s MAP is 0.16405; NDCG is 0.17341
+k=2"s MAP is 0.22934; NDCG is 0.25643
+k=3"s MAP is 0.26173; NDCG is 0.30498
+k=4"s MAP is 0.28095; NDCG is 0.33858
+k=5"s MAP is 0.29564; NDCG is 0.3672
+k=6"s MAP is 0.30603; NDCG is 0.38981
+k=7"s MAP is 0.31346; NDCG is 0.40776
+k=8"s MAP is 0.31975; NDCG is 0.42406
+k=9"s MAP is 0.32484; NDCG is 0.43843
+k=10"s MAP is 0.328; NDCG is 0.44834
+acc 	 precision 	 recall 	 fscore 
+0.91101	0.16974	0.16974	0.16974
+tp 	 fp 	 tn 	 fn  
+976	4774	96765	4774
+The 3-th feature round---The 2-th category round : finished	 Elapsed time: 5190.613 seconds. 
+The 3-th feature round---The 3-th category round:begin!
+The 3-th feature round---The 3-th category round: data assembled	 Elapsed time: 5190.6411 seconds. 
+k=1"s MAP is 0.25; NDCG is 0.25
+k=2"s MAP is 0.375; NDCG is 0.40773
+k=3"s MAP is 0.375; NDCG is 0.40773
+k=4"s MAP is 0.40625; NDCG is 0.46157
+k=5"s MAP is 0.40625; NDCG is 0.46157
+k=6"s MAP is 0.42708; NDCG is 0.50609
+k=7"s MAP is 0.44494; NDCG is 0.54776
+k=8"s MAP is 0.46057; NDCG is 0.58719
+k=9"s MAP is 0.46057; NDCG is 0.58719
+k=10"s MAP is 0.46057; NDCG is 0.58719
+acc 	 precision 	 recall 	 fscore 
+0.80328	0.25	0.25	0.25
+tp 	 fp 	 tn 	 fn  
+2	6	47	6
+The 3-th feature round---The 3-th category round : finished	 Elapsed time: 5191.3932 seconds. 
+The 3-th feature round---The 4-th category round:begin!
+The 3-th feature round---The 4-th category round: data assembled	 Elapsed time: 5191.6011 seconds. 
+k=1"s MAP is 0.13; NDCG is 0.13581
+k=2"s MAP is 0.175; NDCG is 0.19268
+k=3"s MAP is 0.18167; NDCG is 0.2038
+k=4"s MAP is 0.19917; NDCG is 0.23458
+k=5"s MAP is 0.20517; NDCG is 0.24588
+k=6"s MAP is 0.21017; NDCG is 0.25782
+k=7"s MAP is 0.21445; NDCG is 0.26793
+k=8"s MAP is 0.21945; NDCG is 0.28051
+k=9"s MAP is 0.22279; NDCG is 0.28913
+k=10"s MAP is 0.22279; NDCG is 0.28969
+acc 	 precision 	 recall 	 fscore 
+0.96828	0.11765	0.11765	0.11765
+tp 	 fp 	 tn 	 fn  
+14	105	6396	105
+The 3-th feature round---The 4-th category round : finished	 Elapsed time: 5248.4074 seconds. 
+The 3-th feature round---The 5-th category round:begin!
+The 3-th feature round---The 6-th category round:begin!
+The 3-th feature round---The 6-th category round: data assembled	 Elapsed time: 5248.4303 seconds. 
+k=1"s MAP is 0.14286; NDCG is 0.14977
+k=2"s MAP is 0.28571; NDCG is 0.32964
+k=3"s MAP is 0.30952; NDCG is 0.36507
+k=4"s MAP is 0.34524; NDCG is 0.42895
+k=5"s MAP is 0.37381; NDCG is 0.48886
+k=6"s MAP is 0.38571; NDCG is 0.51097
+k=7"s MAP is 0.39592; NDCG is 0.53165
+k=8"s MAP is 0.39592; NDCG is 0.53355
+k=9"s MAP is 0.39592; NDCG is 0.53551
+k=10"s MAP is 0.39592; NDCG is 0.53724
+acc 	 precision 	 recall 	 fscore 
+0.83099	0.14286	0.14286	0.14286
+tp 	 fp 	 tn 	 fn  
+2	12	116	12
+The 3-th feature round---The 6-th category round : finished	 Elapsed time: 5249.4779 seconds. 
+The 3-th feature round---The 7-th category round:begin!
+The 3-th feature round---The 7-th category round: data assembled	 Elapsed time: 5249.7379 seconds. 
+k=1"s MAP is 0.094828; NDCG is 0.1005
+k=2"s MAP is 0.13017; NDCG is 0.14417
+k=3"s MAP is 0.14684; NDCG is 0.16862
+k=4"s MAP is 0.15977; NDCG is 0.19135
+k=5"s MAP is 0.1677; NDCG is 0.20739
+k=6"s MAP is 0.17546; NDCG is 0.22404
+k=7"s MAP is 0.18236; NDCG is 0.2405
+k=8"s MAP is 0.18861; NDCG is 0.25668
+k=9"s MAP is 0.1934; NDCG is 0.27009
+k=10"s MAP is 0.1965; NDCG is 0.27931
+acc 	 precision 	 recall 	 fscore 
+0.94461	0.094828	0.094828	0.094828
+tp 	 fp 	 tn 	 fn  
+55	525	17853	525
+The 3-th feature round---The 7-th category round : finished	 Elapsed time: 5402.6414 seconds. 
+The 3-th feature round---The 8-th category round:begin!
+The 3-th feature round---The 8-th category round: data assembled	 Elapsed time: 5402.6621 seconds. 
+k=1"s MAP is 1; NDCG is 1
+k=2"s MAP is 1; NDCG is 1
+k=3"s MAP is 1; NDCG is 1
+k=4"s MAP is 1; NDCG is 1
+k=5"s MAP is 1; NDCG is 1
+k=6"s MAP is 1; NDCG is 1
+k=7"s MAP is 1; NDCG is 1
+k=8"s MAP is 1; NDCG is 1
+k=9"s MAP is 1; NDCG is 1
+k=10"s MAP is 1; NDCG is 1
+acc 	 precision 	 recall 	 fscore 
+1	1	1	1
+tp 	 fp 	 tn 	 fn  
+2	0	0	0
+The 3-th feature round---The 8-th category round : finished	 Elapsed time: 5402.907 seconds. 
+The 3-th feature round---The 9-th category round:begin!
+The 3-th feature round---The 9-th category round: data assembled	 Elapsed time: 5404.8642 seconds. 
+k=1"s MAP is 0.15464; NDCG is 0.16295
+k=2"s MAP is 0.21312; NDCG is 0.2374
+k=3"s MAP is 0.24374; NDCG is 0.28382
+k=4"s MAP is 0.26482; NDCG is 0.32048
+k=5"s MAP is 0.27794; NDCG is 0.34652
+k=6"s MAP is 0.28762; NDCG is 0.36745
+k=7"s MAP is 0.29594; NDCG is 0.38737
+k=8"s MAP is 0.30183; NDCG is 0.40296
+k=9"s MAP is 0.30628; NDCG is 0.41571
+k=10"s MAP is 0.3099; NDCG is 0.42653
+acc 	 precision 	 recall 	 fscore 
+0.91751	0.15978	0.15978	0.15978
+tp 	 fp 	 tn 	 fn  
+1056	5553	122472	5553
+The 3-th feature round---The 9-th category round : finished	 Elapsed time: 6725.13 seconds. 

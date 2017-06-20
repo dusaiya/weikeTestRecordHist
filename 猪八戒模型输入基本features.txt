@@ -1,0 +1,63 @@
+Y输出 
+piecework's work_quality 是否获得奖励
+
+X输入
+features:
+
+piecework
+A 【稿件】相关信息 
+task_days (任务总周期/天)
+submit_days (稿件提交时间/天)
+稿件提交相对次序Rate ()
+获得奖励的金额(元)
+
+可扩展
+submit_time(提交的时间)
+
+B 【任务task】相关信息
+total_amt(任务总金额)
+total_ct 参与任务的稿件总数
+total_win_ct 获得奖励的稿件总数
+total_worker 参与任务的总人数
+median_ability_level 参与任务的系统reputation level的中位数
+一级类目
+二级类目
+task_Mode(任务类型)
+
+可扩展(必须满足的任务提交条件)
+work_realese_date (任务发布日期)
+mobile_Authen 手机认证{0，1}
+realName_Authen 实名认证{0，1}
+completement_Security 保证完成{0，1}
+origin_Work 保证原创{0，1}
+
+C 【稿件提交人】相关信息
+ability_level_int(系统等级)
+ability_value_int(系统实际运行数据)
+稿件提交人单任务下相对reputation()
+
+可扩展扩展
+四类系统广告标记
+special_customer_type
+fuwubao
+recomment_employ
+recommend_customer
+
+近期工作
+近1周内同类别下提交稿件数量
+近1周内同类别下获选稿件数量
+近1月内同类别下提交稿件数量
+近1月内同类别下获选稿件数量
+近3月内同类别下提交稿件数量
+近3月内同类别下获选稿件数量
+近6月内同类别下提交稿件数量
+近6月内同类别下获选稿件数量
+近1周内提交稿件数量
+近1周内获选稿件数量
+近1月内提交稿件数量
+近1月内获选稿件数量
+近3月内提交稿件数量
+近3月内获选稿件数量
+近6月内提交稿件数量
+近6月内获选稿件数量
+

@@ -1,0 +1,95 @@
+One classifier with pointwise
+
+Logistic regression
+{0,1}
+acc:0.91005;precision:0.083825;recall:0.083825;fscore:0.083825
+tp:554;fp:6055;tn:121970;fn:6055
+Elapsed time is 33.379486 seconds.
+[0,1]
+acc:0.90968;precision:0.080042;recall:0.080042;fscore:0.080042
+tp:529;fp:6080;tn:121945;fn:6080
+Elapsed time is 25.219268 seconds.
+
+dc tree
+{0,1}
+acc:0.91368;precision:0.12074;recall:0.12074;fscore:0.12074
+tp:798;fp:5811;tn:122214;fn:5811
+Elapsed time is 195.832417 seconds.
+[0,1]
+acc:0.91451;precision:0.12922;recall:0.12922;fscore:0.12922
+tp:854;fp:5755;tn:122270;fn:5755
+Elapsed time is 209.298086 seconds.
+
+random forest (nTree=20)
+{0,1}
+acc:0.9161;precision:0.14541;recall:0.14541;fscore:0.14541
+tp:961;fp:5648;tn:122377;fn:5648
+Elapsed time is 443.652736 seconds.
+
+[0,1]
+acc:0.91892;precision:0.17416;recall:0.17416;fscore:0.17416
+tp:1151;fp:5458;tn:122567;fn:5458
+Elapsed time is 537.262660 seconds.
+
+Sepecific classifier for each category
+Logistic regression
+{0,1}
+acc:0.91016;precision:0.084884;recall:0.084884;fscore:0.084884
+tp:561;fp:6048;tn:121977;fn:6048
+Elapsed time is 31.312463 seconds.
+[0,1]
+acc:0.90992;precision:0.082463;recall:0.082463;fscore:0.082463
+tp:545;fp:6064;tn:121961;fn:6064
+
+
+decision tree
+{0,1}
+acc:0.91438;precision:0.12786;recall:0.12786;fscore:0.12786
+tp:845;fp:5764;tn:122261;fn:5764
+Elapsed time is 132.158931 seconds.
+
+[0,1]
+acc:0.91503;precision:0.13451;recall:0.13451;fscore:0.13451
+tp:889;fp:5720;tn:122305;fn:5720
+Elapsed time is 139.808540 seconds.
+
+Random forest(nTree=20)
+{0,1}
+acc:0.91567;precision:0.14102;recall:0.14102;fscore:0.14102
+tp:932;fp:5677;tn:122348;fn:5677		Q
+Elapsed time is 341.942802 seconds.
+
+[0,1]
+acc:0.91752;precision:0.15993;recall:0.15993;fscore:0.15993
+tp:1057;fp:5552;tn:122473;fn:5552
+Elapsed time is 397.713937 seconds.
+
+
+Baseline
+'1'    'random'
+acc:0.91172;precision:0.10077;recall:0.10077;fscore:0.10077
+tp:666;fp:5943;tn:122082;fn:5943
+'2'    'reputationRank'
+acc:0.91227;precision:0.10637;recall:0.10637;fscore:0.10637
+tp:703;fp:5906;tn:122119;fn:5906
+'3'    'sucRateAll'
+acc:0.91782;precision:0.16296;recall:0.16296;fscore:0.16296
+tp:1077;fp:5532;tn:122493;fn:5532
+'4'    'sucRateCate'
+acc:0.91772;precision:0.1619;recall:0.1619;fscore:0.1619
+tp:1070;fp:5539;tn:122486;fn:5539
+
+
+
+
+dcTree
+The following error occurred converting from ClassificationTree to cell:
+Error using cell
+Conversion to cell from ClassificationTree is not possible.
+
+Error in dcTree (line 3)
+models(1)=tree;
+
+
+
+
